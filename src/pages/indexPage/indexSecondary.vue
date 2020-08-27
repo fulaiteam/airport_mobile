@@ -7,19 +7,15 @@
            <div class='img1_area' >
                <img src="../../assets/images/index/secondary_img1.png"  class='img1' >
            </div>
-           <div  class='text_area1 margin_top76' >
-
-北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。<br>
-北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。        
+           <div  class='text_area1' >
+华为智慧机场数据中心解决方案，近年来，智慧机场理念已得到业内的普遍认可，并开始逐步付诸实践。数字化协作、云计算和大数据等新ICT技术带来的变革将赋予传统ICT系统所不具备的能力，重构机场的信息流，在智慧机场的运营安全保障、机场运行效率、面向旅客及企业的服务质量等方面将带来显著效益。
            </div>
            <div  class='img_2area' >
                <img src="../../assets/images/index/secondary_img2.png"   class='img2' >
                 <img src="../../assets/images/index/secondary_img3.png"   class='img2' >
            </div>
-            <div  class='text_area1 margin_top60 margin_bottom100' >
-               
-                                北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。<br>
-北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。北京空港赛瑞安防科技有限公司是首都机场集团公司旗下的北京首都机场航空安保有限公司的全资子公司，是集生产、研发、销售、维护为一体的专业从事民航安防技术管理及相关专业系统集成的科技型企业。
+            <div  class='text_area1 margin_bottom100' >
+               华为智慧机场数据中心解决方案，近年来，智慧机场理念已得到业内的普遍认可，并开始逐步付诸实践。数字化协作、云计算和大数据等新ICT技术带来的变革将赋予传统ICT系统所不具备的能力，重构机场的信息流，在智慧机场的运营安全保障、机场运行效率、面向旅客及企业的服务质量等方面将带来显著效益。
                             
            </div>
         </div>
@@ -34,56 +30,57 @@
 
 <style scoped>
 .conten_cccc{
-    width:1096px;
-    margin:0 auto;
+    width:100%;
+    box-sizing: border-box;
+    padding-left:1.55rem;
+    padding-right:1.45rem;
 }
 .title{
-    width:100%;
-    margin-top:85px;
-    height:29px;
-    line-height: 29px;
-    font-size:30px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width:100%;
+    height:1.2rem;
+    margin-top:2.45rem;
+    font-size:1.2rem;
     font-family:Source Han Sans CN;
     font-weight:bold;
-    color:rgba(21,119,201,1);
+    color:rgba(21,91,165,1);
 }
 .img1_area{
-    width:100%;
-    margin-top:53px;
-    height:440px;
+    margin-top:2.75rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    width:100%;
+    height:13.55rem;
 }
 .img1{
-    width:870px;
-    height:440px;
+    width:26.55rem;
+    height:13.55rem;
 }
 .text_area1{
+    margin-top:2.5rem;
     width:100%;
-    font-size:18px;
+    font-size:1rem;
     font-family:Source Han Sans CN;
     font-weight:400;
-    color:rgba(101,101,101,1);
-    line-height:26px;
-}
-.margin_top76{
-     margin-top:76px;
+    color:rgba(51,51,51,1);
+    line-height:1.3rem;
 }
 .img_2area{
-    width:100%;
-    height:310px;
-    margin-top:58px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-top:2.75rem;
+   width:100%;
+   height:9rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
-.margin_top60{
-    margin-top:60px;
+.img2{
+    width:16.5rem;
+    height:9rem;
 }
 .margin_bottom100{
-    margin-bottom:100px;
+   margin-bottom:3.75rem;
 }
 </style>
