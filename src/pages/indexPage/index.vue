@@ -67,60 +67,9 @@
 </script>
 
 <style  scoped>
-.ind_allbg{
-    width:100%;
-    height:1008px;
-    position: relative;
-    background:darkblue;
-}
-.dot_area_line{
-    width:12px;
-    margin-left:32px;
-    height:1008px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.dot_area{
-    width:12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-.dot{
-    width:12px;
-    height:12px;
-    margin-top:9px;
-    border-radius: 50%;
-    background:#666666;
-    opacity: 0.4;
-}
-.dot_active{
-    background:white;
-    opacity: 1;
-}
-.bottom_area_sch{
-    position:absolute;
-    height:40px;
-    bottom:50px;
-    width:100%;
-    z-index: 99999;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-.bottom_area_line{
-    width:638px;
-    height:2px;
-    background:url('../../assets/images/index/line.png') no-repeat center; 
-}
 .bottom_area_text{
-    height:22px;
-    font-size:22px;
-    font-family:Source Han Sans CN;
-    font-weight:400;
-    color:rgba(255,255,255,1);
-    line-height:22px;
+    height:3rem;
+    background:red;
+    
 }
 </style>
