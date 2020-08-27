@@ -5,8 +5,30 @@
 </template>
 
 <script>
+        window.onresize = function(){
+            setHTMLFontSize();
+        }
+      function   setHTMLFontSize(){
+        
+           var cw = document.documentElement.clientWidth;
+        if (cw > 1920) {
+            cw = 1920;
+        }
+        document.getElementsByTagName("div")[0].style.fontSize = 20 * ( cw / 750) + 'px'
+        console.log(document.getElementsByTagName("div")[0].style.fontSize)
+
+        }
+      
     export default {
-        name: 'App'
+        name: 'App',
+          created(){
+                         var cw = document.documentElement.clientWidth;
+        if (cw > 1920) {
+            cw = 1920;
+        }
+        document.getElementsByTagName("div")[0].style.fontSize = 20 * ( cw / 750) + 'px'
+        console.log(document.getElementsByTagName("div")[0].style.fontSize)
+  },
     }
 </script>
 
