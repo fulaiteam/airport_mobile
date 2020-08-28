@@ -7,16 +7,12 @@
                     <div class="video_box">
                         <video src="../../assets/images/congressTopics/test123.mp4"></video>
                     </div>
+                </div>
+                <div class="others">
                     <div class="pro_name">
                         <div class="pro_title">产品名称</div>
                         <div class="pro_con">在这片从直布罗陀到达达尼尔，从突尼斯到威尼斯的浩瀚无垠的大海上，一艘整洁、漂亮、轻捷的游艇正在黄昏的轻雾中穿行。犹如一只迎风展翅的天鹅，平稳地在水面上滑行。</div>
-                        <div class="subtitle pro_con">小标题</div>
-                        <div class="pro_con">在这片从直布罗陀到达达尼尔，从突尼斯到威尼斯的浩瀚无垠的大海上。</div>
-                        <div class="subtitle pro_con">小标题</div>
-                        <div class="pro_con">在这片从直布罗陀到达达尼尔，从突尼斯到威尼斯的浩瀚无垠的大海上。</div>
                     </div>
-                </div>
-                <div class="others">
                     <div class="otherspro_title">其他产品展示</div>
                     <div class="other_pro">
                         <div class="other_pro_li" v-for="(item,index) in productList" :key="index">
@@ -55,6 +51,7 @@
 .content{
     width: 100%;
     font-family: SourceHanSansCN-Medium;
+    background: #F5F5F5;
 }
 .center_box{
     width:100%;
@@ -63,89 +60,98 @@
 }
 /* 场景演示开始 */
 .content .center_box .sence{
-    width: 1200px;
-    margin-bottom: 168px;
+    width: 100%;
 }
 /* 场景演示标题 */
 .content .center_box .sence .sence_title{
-    height: 140px;
-    line-height: 140px;
-    font-size: 40px;
+    padding-top: 0.5rem;
+    height: 4.3rem;
+    line-height: 4.3rem;
+    font-size: 1.4rem;
     color: #333333;
-    font-weight: 500;
+    font-weight: bold;
     text-align: center;
+    background: #fff;
 }
 .content .center_box .sence .sence_box{
-    display: flex;
-    justify-content: flex-start;
+    height: 21.1rem;
+    width: 100%;
+    background: #fff;
 }
 .content .center_box .sence .sence_box .video_box video{
-    height: 450px;
-    width: 800px;
+    height: 21.1rem;
+    width: 100%;
     object-fit: fill;
 }
 /* 场景演示右侧产品名称 */
-.content .center_box .sence .sence_box .pro_name{
-    margin-left: 30px;
-    background: #F5F5F5;
-    height: 400px;
-    width: 310px;
-    padding: 25px 30px;
+.pro_name{
+   padding: 0.9rem 2.4rem 1.4rem 2.4rem;
+   height: 7.8rem;
+   background: #fff;
+}
+.pro_name .pro_title{
+    height: 2.8rem;
+    color: #155BA5;
+    font-weight: bold;
+    background: #fff;
+}
+.pro_name .pro_con{
+    font-size: 0.9rem;
     color: #535353;
-}
-.content .center_box .sence .sence_box .pro_name .pro_title{
-    font-size: 22px;
-    color: #333;
-}
-.content .center_box .sence .sence_box .pro_name .pro_con{
-    font-size: 14px;
-    line-height: 20px;
-    margin-top: 25px;
-    font-weight: 400;
-}
-.content .center_box .sence .sence_box .pro_name .subtitle{
-    font-weight: 500;
 }
 /* 场景演示结束 */
 /* 其他产品展示开始 */
 .others{
-    margin-top: 8px;
+    background: #F5F5F5;
 }
 .others .otherspro_title{
-    text-align: center;
+    margin-top: 1rem;
     color: #1577C9;
-    height: 218px;
-    line-height: 218px;
-    font-size: 30px;
+    height: 3.4rem;
+    line-height: 3.4rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: #fff;
+    padding: 1.1rem 2.6rem;
 }
 .others .other_pro{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    background: #fff;
 }
 .others .other_pro .other_pro_li{
-    width: 380px;
-    margin-right: 22px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2.2rem 0;
+    border-bottom: 1px solid #CBCBCB;
 }
 .others .other_pro .other_pro_li:last-child{
-    margin-right: 0;
+    border: 0;
 }
 .others .other_pro .other_pro_li img{
-    height: 180px;
-    width: 380px;
+    height: 6.5rem;
+    width: 10rem;
+    border-radius: 5px;
+    margin-left: 4.4rem;
 }
 .others .other_pro .other_pro_li .pro_con{
-    padding: 15px 30px;
+    width: 17.7rem;
+    height: 6.5rem;
+    margin-left: 1.5rem;
+    margin-right: 3.8rem;
 }
 .others .other_pro .other_pro_li .pro_con .pro_title{
-    color:#1577C9;
-    font-size: 18px;
-    font-weight: 500;
+    color:#333333;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 .others .other_pro .other_pro_li .pro_con .pro_content{
     color:#535353;
-    font-size:14px;
-    margin-top: 13px;
-    line-height: 20px;
+    font-size:0.8rem;
+    margin-top: 0.8rem;
+    height: 3.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 /* 其他产品展示结束 */
 </style>

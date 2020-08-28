@@ -22,7 +22,8 @@
                         url:'conferenceGuests'
                     },
                     {
-                        name:'合作伙伴'
+                        name:'合作伙伴',
+                        url:'cooperative'
                     },
                     {
                         name:'新闻资讯',

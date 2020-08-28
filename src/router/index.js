@@ -17,6 +17,16 @@ export default new Router({
                     name: 'index',
                     component: resolve => require(['@/pages/indexPage/index'], resolve),
                 },
+                {   // 登录页面
+                    path: '/login',
+                    name: 'Login',
+                    component: resolve => require(['@/pages/Login'], resolve),
+                },
+                {   // 注册页面
+                    path: '/register',
+                    name: 'register',
+                    component: resolve => require(['@/pages/register'], resolve),
+                },
                 {   // 大会专题  congressDes
                     path: '/home/congressTopics',
                     name: 'congressTopics',
@@ -51,6 +61,14 @@ export default new Router({
                     path: '/home/yunExhibitionhall/exhibitionConpanyname',
                     name: 'exhibitionConpanyname',
                     component: resolve => require(['@/pages/yunExhibitionhall/exhibitionConpanyname'], resolve),
+                },
+                 {   //云会谈   cloudTalks
+                    path: '/home/cloudTalks/cloudTalks',
+                    name: 'cloudTalks',
+                    component: resolve => require(['@/pages/cloudTalks/cloudTalks'], resolve),
+                    meta: {
+                        requireAuth: true,  // 添加该字段，表示进入这个路由是需要登录的
+                     },
                 },
                  {   //合作伙伴   cooperative
                     path: '/home/cooperative/cooperative',

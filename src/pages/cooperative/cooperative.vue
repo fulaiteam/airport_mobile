@@ -67,6 +67,7 @@
 <style scoped>
 .content{
     width: 100%;
+    background: #F5F5F5;
 }
 /* tab开始 */
 .tab{
@@ -110,13 +111,16 @@
     padding-bottom:2.2rem;
 }
 .intrduce .introduce_wrap .talk_con .talk_conli{
-    width:16.6rem;
+    width:16.3rem;
     height:6.2rem;
     background:rgba(251,251,251,1);
     border:1px solid rgba(153,153,153,1);
     border-radius:10px;
     margin: 0.6rem 1.2rem 0 0;
     position: relative;
+}
+.intrduce .introduce_wrap .talk_con .talk_conli:nth-child(2n+0){
+    margin-right:0
 }
 .intrduce .introduce_wrap .talk_con .talk_conli img{
     height: 5.8rem;
