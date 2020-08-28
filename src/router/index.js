@@ -52,7 +52,23 @@ export default new Router({
                     name: 'exhibitionConpanyname',
                     component: resolve => require(['@/pages/yunExhibitionhall/exhibitionConpanyname'], resolve),
                 },
+                 {   //合作伙伴   cooperative
+                    path: '/home/cooperative/cooperative',
+                    name: 'cooperative',
+                    component: resolve => require(['@/pages/cooperative/cooperative'], resolve),
+                    meta: {
+                        requireAuth: true,  // 添加该字段，表示进入这个路由是需要登录的
+                     },
+                },
                 
+                 {   //合作伙伴  -- 三级页面   cooperativeDes
+                    path: '/home/cooperative/cooperativeDes',
+                    name: 'cooperativeDes',
+                    component: resolve => require(['@/pages/cooperative/cooperativeDes'], resolve),
+                    meta: {
+                        requireAuth: true,  // 添加该字段，表示进入这个路由是需要登录的
+                     },
+                },
                 {   //云展馆 ---场景演示  sceneDemonstration
                     path: '/home/yunExhibitionhall/sceneDemonstration',
                     name: 'sceneDemonstration',

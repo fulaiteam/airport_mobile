@@ -15,7 +15,7 @@
                 <div class="list">
                     <div class="subtitle">
                         <img src="../../assets/images/yunExhibitionhall/icon2.png" alt="">
-                        <span>主营简介</span>
+                        <span>主营产品</span>
                     </div>
                     <div class="con_li">
                         <div class="li_box" v-for="(item,index) in productList" :key="index">
@@ -55,7 +55,7 @@
     width: 100%;
     height: 1430px;
     box-sizing: border-box;
-    background:url('../../assets/images/yunExhibitionhall/company.png')  no-repeat center;
+    
 }
 .content_con{
     width: 100%;
@@ -67,6 +67,8 @@
 }
 /* 企业名称 */
 .content_con .title{
+    background:url('../../assets/images/yunExhibitionhall/cname.png')  no-repeat center;
+    background-size: 100% 4.8rem;
     height: 106px;
     line-height: 106px;
     text-align: center;

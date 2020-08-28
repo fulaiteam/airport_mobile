@@ -68,8 +68,9 @@
                     {title:'科技赋能 智慧助力 高质量推进四型机场建设',time:"2020年10月10日"}
                 ],
                 congress2:[
-                    {title:'科技赋能 智慧助力 高质量推进四型机场建设',time:"2020年10月10日"},
-                    {title:'科技赋能 智慧助力 高质量推进四型机场建设',time:"2020年10月10日"}
+                    {title:'开幕式',time:"2020年10月10日"},
+                    {title:'论坛',time:"2020年10月10日"},
+                    {title:'闭幕式',time:"2020年10月10日"},
                 ],
                 congress3:[
                     {title:'科技赋能 智慧助力 高质量推进四型机场建设',time:"2020年10月10日"},
@@ -98,105 +99,109 @@
 </script>
 
 <style scoped>
+.content{
+    background: #F5F5F5;
+}
 /* tab开始 */
 .tab{
-    padding: 0;
-    margin: 0;
     width: 100%;
+    height: 15.4rem;
     background:#333333;
-    display: flex;
-    justify-content: center;
 }
 .tab .content_center{
-    width: 1200px;
-    height: 500px;
-    background:url('../../assets/images/congressTopics/tab.png')  no-repeat center;
+    width: 100%;
+    height: 15.4rem;
+    background:url('../../assets/images/congressTopics/mtab.gif')  no-repeat center;
+    background-size: 100% 15.4rem;
 }
 /* tab结束 */
 /* 大会介绍开始 */
 .intrduce{
     width: 100%;
-    font-family: SourceHanSansCN-Medium;
-    display: flex;
-    justify-content: center;
     color: #535353;
-    font-size: 18px;
 }
 .intrduce .intruduce_con{
-    width: 1095px;
-    margin: 0 52.5px;
-}
-.intruduce_con:last-child{
-    margin-bottom:166px;
+    width: 100%;
+    padding: 0 1.5rem;
+    background: #fff;
+    margin-bottom: 1rem;
 }
 .sub_box{
     display: flex;
     flex-direction: column;
+    padding-top: 2.2rem;
 }
 .intrduce .intruduce_con .subtitle{
     display: flex;
     justify-content: flex-start;
-    margin-top: 71px;
-    height: 56px;
-    line-height: 56px;
-    color: #333333;
-    font-size: 30px;
+    height: 2.6rem;
+    line-height: 1.6rem;
 }
 .intrduce .intruduce_con .subtitle .icon{
-    width: 31px;
-    height: 31px;
-    margin: 11px 14px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.intrduce .intruduce_con .subtitle .title{
+    color: #155BA5;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: .7rem;
 }
 .line{
     height: 1px;
-    width: 277px;
+    width: 13.8rem;
 }
 /* 各大会的框开始 */
 .congress{
-    margin-top: 49px;
+    margin-top: 2.4rem;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 .congress .congress_li{
-    height: 152px;
-    width: 299px;
+    height: 9.4rem;
+    width: 15.7rem;
+    margin-top: 2.4rem;
     border: 1px solid #ccc;
-    box-shadow:0px 2px 18px 0px rgba(8,1,3,0.15);
-    margin-right:20px;
+    box-shadow:0px 2px 2px 0px rgba(8,1,3,0.15);
+    margin-right:1.5rem;
     border-radius: 6px;
-    padding: 18px 25px;
+    padding: 0.4rem;
     font-family: SourceHanSansCN-Regular;
-    margin-top: 22px;
 }
-.congress .congress_li:nth-child(3n+0){
+.congress .congress_li:nth-child(2n+0){
     margin-right: 0;
 }
-.congress .congress_li:nth-child(-n+3){
+.congress .congress_li:nth-child(-n+2){
     margin-top: 0;
 }
+.congress .congress_li:last-child{
+    margin-bottom: 3.2rem;
+}
 .congress .congress_li .title{
-    font-size: 24px;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #333;
+    margin-top: 1rem;
 }
 .congress .congress_li .time{
-    font-size: 18px;
+    font-size: 0.9rem;
     color: #666666;
-    margin-top: 15px;
+    margin-top: 0.8rem;
 }
 .congress .congress_li .but{
-    width:102px;
-    height:27px;
-    line-height: 27px;
+    width:5.1rem;
+    height:1.3rem;
+    line-height: 1.3rem;
     background:rgba(23,116,229,1);
     border-radius:14px;
-    font-size:18px;
+    font-size:0.9rem;
     font-family:Source Han Sans CN;
     font-weight:400;
     color:rgba(255,255,255,1);
     text-align: center;
-    margin-top: 27px;
+    margin-top: 0.8rem;
+    padding: 0.2rem 0.5rem;
 }
 
 /* 各大会的框结束 */

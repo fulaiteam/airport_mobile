@@ -7,7 +7,7 @@
                     <video class="videoBox" src="../../assets/images/congressTopics/test123.mp4"></video>
                     <div class="eval">
                         <div class="eval_title">发言摘要</div>
-                        <textarea class="eval_box" :value="textCon"></textarea>
+                        <textarea class="eval_box" :value="textCon" placeholder="发言内容"></textarea>
                     </div>
                     <div class="con_intro">企业介绍</div>
                     <div class="con_con">首都机场集团公司（英文缩写CAH）隶属于中国民用航空局，是一家以机场业为核心的跨地域的大型国有企业集团。 公司旗下拥有北京、天津、江西、河北、吉林、内蒙古、黑龙江等8省（直辖市、自治区）所辖干支机场20多个，并参股沈阳、大连机场，2010年，首都机场集团公司实现旅客吞吐量1.43亿人次，为我国最大的机场集团。</div>
@@ -43,76 +43,79 @@
 
 .intrduce{
     width: 100%;
-    font-family: SourceHanSansCN-Medium;
-    display: flex;
-    justify-content: center;
-    color: #535353;
-    font-size: 18px;
+    background: #F5F5F5;
 }
 .intrduce .intruduce_con{
-    width: 1200;
+    width: 100%;
 }
 .intrduce .intruduce_con .title{
     color: #1577C9;
-    font-size: 30px;
+    font-size: 1.2rem;
     text-align: center;
     font-weight: bold;
-    height: 192px;
-    line-height: 192px;
+    margin-top: 0.6rem;
+    height: 4.2rem;
+    line-height: 4.2rem;
     font-family:Source Han Sans CN;
+    background: #fff;
 }
 /* 视频 */
 .videoBox{
-    height: 675px;
-    width: 1200px;
+    height: 19.4rem;
+    width: 34.5rem;
+    padding: 0 1.4rem 2.3rem 1.4rem;
     background: crimson;
     object-fit: fill;
     display: flex;
     justify-content: center;
+    background: #fff;
 }
 /* 填写评论的框开始 */
 .eval{
     position: relative;
+    background:#fff;
+    margin-top: 1rem;
 }
 .eval_box{
-    width:1146px;
-    height:163px;
-    background:rgba(255,255,255,1);
-    border:1px solid rgba(67,67,67,1);
+    width:33.7rem;
+    height:8.7rem;
+    margin: 1rem 1.4rem;
+    background:#F4F4F4;
     opacity:0.7;
     border-radius:10px;
-    font-size:26px;
+    font-size:0.9rem;
     color: #979797;
-    padding: 23px 27px;
-    margin-top: 52px;
-    padding-top: 50px;
+    border: none;
+    padding: 3.6rem 0.5rem 0 0.5rem;
+    text-align: center;
 }
 /* 填写评论的框结束 */
 .eval_title{
     position: absolute;
-    top: 67px;
+    top: 2.2rem;
     left:50%;
-    margin-left:-42px;
+    margin-left:-2.5rem;
     font-size:20px;
-    color:#999999;
-    z-index:999
+    color:#333333;
+    z-index:999;
+    font-size:1.2rem
 }
 /* 企业介绍开始 */
 .con_intro{
     color: #1577C9;
-    font-size: 30px;
+    font-size: 1.2rem;
     text-align: center;
     font-weight: bold;
-    height: 192px;
-    line-height: 192px;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    background: #fff;
 }
 .con_con{
-    width: 1095px;
-    padding:0 52.5px;
-    font-size:18px;
+    padding:2.2rem 1.5rem;
+    background: #fff;
+    font-size:1rem;
     font-weight:400;
     color:rgba(83,83,83,1);
-    margin-bottom: 160px;
 }
 /* 企业介绍结束 */
 </style>

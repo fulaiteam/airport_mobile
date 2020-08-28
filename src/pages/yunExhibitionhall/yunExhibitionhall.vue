@@ -5,10 +5,10 @@
         </div>
         <div class="intrduce">
             <div class="intrduce_content">
-                <img @click="todes(1)" src="../../assets/images/yunExhibitionhall/con1.png" alt="">
-                <img @click="todes(2)" src="../../assets/images/yunExhibitionhall/con2.png" alt="">
-                <img @click="todes(3)" src="../../assets/images/yunExhibitionhall/con3.png" alt="">
-                <img @click="todes(4)" src="../../assets/images/yunExhibitionhall/con4.png" alt="">
+                <img @click="todes(1)" src="../../assets/images/yunExhibitionhall/i1.png" alt="">
+                <img @click="todes(2)" src="../../assets/images/yunExhibitionhall/i2.png" alt="">
+                <img @click="todes(3)" src="../../assets/images/yunExhibitionhall/i3.png" alt="">
+                <img @click="todes(4)" src="../../assets/images/yunExhibitionhall/i4.png" alt="">
             </div>
         </div>
     </div>
@@ -40,28 +40,30 @@
 /* tab开始 */
 .content{
     width: 100%;
+    background: #fff;
 }
 .tab{
     width: 100%;
+}
+.tab img{
+    height: 15.2rem;
+    width:100%;
 }
 /* tab结束 */
 .intrduce{
     width: 100%;
     font-family: SourceHanSansCN-Medium;
-    display: flex;
-    justify-content: center;
-    color: #535353;
-    font-size: 18px;
 }
 .intrduce_content{
-    width: 1200px;
-    margin: 120px 0 210px 0;
-
+    width: 100%;
+    padding: 2rem 1.4rem;
 }
 .intrduce_content img:nth-child(2n+1){
-    margin-right:30px;
+    margin-right:1.1rem;
 }
 .intrduce_content img{
-    margin-top:30px;
+    height: 9.6rem;
+    width: 16.8rem;
+    margin-bottom:1rem;
 }
 </style>

@@ -5,7 +5,8 @@
                 <div class="intruduce_con">
                     <div class="title">{{ title }}</div>
                     <video class="videoBox" src="../../assets/images/congressTopics/test123.mp4"></video>
-                    <div class="title">评价</div>
+                    <div class="eva_title">评价</div>
+                    <textarea class="eval_box" placeholder="我也来说几句" :value="textCon"></textarea>
                     <div class="evalution_li" v-for="(item,index) in evalutionList" :key="index">
                         <div class="acount">{{ item.acount }}</div>
                         <div class="time">{{ item.time }}</div>
@@ -17,10 +18,9 @@
                             赞
                         </div>
                     </div>
-                    <textarea class="eval_box" placeholder="我也来说几句" :value="textCon"></textarea>
-                    <div class="submit_but">
+                    <!-- <div class="submit_but">
                         <img @click="submit()" src="../../assets/images/congressTopics/submit.png" alt="">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -54,88 +54,90 @@
 .intrduce{
     width: 100%;
     font-family: SourceHanSansCN-Medium;
-    display: flex;
-    justify-content: center;
-    color: #535353;
-    font-size: 18px;
 }
 .intrduce .intruduce_con{
-    width: 1200;
+    width: 100%;
+    margin-bottom:2.3rem;
 }
 .intrduce .intruduce_con .title{
     color: #1577C9;
-    font-size: 30px;
+    font-size: 1.2rem;
     text-align: center;
     font-weight: bold;
-    height: 192px;
-    line-height: 192px;
+    height: 5.2rem;
+    line-height: 5.2rem;
     font-family:Source Han Sans CN;
 }
 /* 视频 */
 .videoBox{
-    height: 675px;
-    width: 1200px;
+    height: 19.4rem;
+    width: 34.5rem;
+    margin: 0 1.5rem;
     background: crimson;
     object-fit: fill;
 }
 /* 评论 */
+.intrduce .intruduce_con .eva_title{
+    width: 100%;
+    color: #4374EF;
+    font-size: 1.4rem;
+    text-align: center;
+    height: 4rem;
+    line-height: 4rem;
+    box-shadow: 0 0.3rem 0.3rem #ddd;
+}
 .evalution_li{
     border-bottom:1px solid #CBCBCB;
-    margin: 53px 80px;
+    padding: 0 1.6rem;
     color:#2F2F2F;
-    font-size: 28px;
+    font-size: 1.3rem;
 }
 .evalution_li .acount{
-    margin-left: 32px;
+    margin-top:1.2rem
 }
 .evalution_li .time{
-    margin-left: 32px;
-    font-size: 25px;
+    font-size: 0.8rem;
     color: #B7B7B7;
 }
 .evalution_li .content{
-    margin-left: 32px;
-    margin-top: 37px;
-    margin: 37px 0 0 32px;
+    margin: 1.5rem 1.9rem;
 }
 .good{
     display: flex;
     justify-content: flex-end;
     color: #8B8B8B;
-    font-size: 25px;
-    margin-bottom: 29px;
     position: relative;
+    font-size: 1.2rem;
+    margin-bottom:1.4rem
 }
 .good span{
     position: absolute;
-    right: 29px;
-    top: -17px;
-    font-size: 18px;
+    right: 2rem;
+    top: -1.5rem;
+    font-size: 1.2rem;
 }
 .goods{
     color: #FF5353;
-    font-size: 25px;
+    font-size: 1.2rem;
 }
 .good img{
     margin: 0 16px;
+    height: 2rem;
+    width: 2rem;
 }
 /* 填写评论的框开始 */
 .eval_box{
-    width:1146px;
-    height:163px;
+    width:30.6rem;
+    height:3.7rem;
+    line-height: 3.7rem;
+    text-align: center;
+    border: none;
     background:rgba(232,232,232,1);
     opacity:0.7;
     border-radius:10px;
-    font-size:26px;
+    font-size:1.4rem;
     color: #979797;
-    padding: 23px 27px;
+    margin: 1.8rem 3.4rem;
 }
 /* 填写评论的框结束 */
-/* 提交的按钮开始 */
-.submit_but{
-    display: flex;
-    justify-content: center;
-    margin: 55px 0 247px 0;
-}
-/* 提交的按钮结束 */
 </style>
