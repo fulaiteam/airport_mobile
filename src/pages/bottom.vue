@@ -38,7 +38,7 @@
                    {show:false,url:'index',img:require("../assets/images/bottom/icon1.png"),img1:require("../assets/images/bottom/i1.png")},
                    //云展馆
                    {show:true,url:'yunExhibitionhall',img:require("../assets/images/bottom/icon2.png"),img1:require("../assets/images/bottom/i2.png")},
-                   {show:true,url:'cooperative',img:require("../assets/images/bottom/icon3.png"),img1:require("../assets/images/bottom/i3.png")},
+                   {show:true,url:'cloudExperience',img:require("../assets/images/bottom/icon3.png"),img1:require("../assets/images/bottom/i3.png")},
                    {show:true,url:'index',img:require("../assets/images/bottom/icon4.png"),img1:require("../assets/images/bottom/i4.png")},
                    {show:true,url:'index',img:require("../assets/images/bottom/icon5.png"),img1:require("../assets/images/bottom/i5.png")},
                ],

@@ -30,7 +30,7 @@
                     大会报道
                 </div>
                 <ul  class='con_ul' >
-                    <li  class='con_li' v-for='i in 4' >
+                    <li  class='con_li' v-for='i in 2' >
                         <img src="../../assets/images/newsInfo/theNewConsult.png" class='con_li_left'   @click='topage("newsInfosSecond")' >
                         <div  class='con_li_right'  >
 首都机场集团将于2020年10月10日在线举办首届“四型机场”技术创新大会。届时首都机场集团将发布“四型机场”建设需求，国内大型机场集团、民航科研院所、技术设备厂商、互联网科创企业将共聚一堂，交流成功经验、展示科创产品、建立合作契机。
@@ -38,12 +38,13 @@
                     </li>
                 </ul>
                 <!-- 大会报道区域结束 -->
+                <div  class='grey_rec' ></div>
                 <!-- 产业发展区域开始 -->
                 <div  class='con_title' >
                     产业发展
                 </div>
                 <ul  class='con_ul' >
-                    <li  class='con_li' v-for='i in 4' >
+                    <li  class='con_li' v-for='i in 2' >
                         <img src="../../assets/images/newsInfo/theNewConsult.png" class='con_li_left'>
                         <div  class='con_li_right'  >
 首都机场集团将于2020年10月10日在线举办首届“四型机场”技术创新大会。届时首都机场集团将发布“四型机场”建设需求，国内大型机场集团、民航科研院所、技术设备厂商、互联网科创企业将共聚一堂，交流成功经验、展示科创产品、建立合作契机。
@@ -84,7 +85,7 @@
 <style  scoped>
 .top_carousel_area{
     width:100%;
-    height:500px;
+    height:18rem;
     position: relative;
     z-index: 1;
 }
@@ -93,7 +94,7 @@
     position: absolute;
     left: 0;
     top:0;
-    height:500px;
+    height:18rem;
     z-index: 2;
 }
 .middle_area1100{
@@ -101,15 +102,16 @@
     position: absolute;
     left: 0;
     top:0;
-    height:500px;
+    height:18rem;
     z-index: 3;
 }
 .middle_area_content{
-    width:1100px;
-    height:263px;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top:210px;
+    width:100%;
+    height:8rem;
+    box-sizing: border-box;
+    padding-left:2.5rem;
+    padding-right: 2.4rem;
+    margin-top:8.5rem;
     z-index: 999;
     display: flex;
     flex-direction: column;
@@ -118,82 +120,95 @@
 }
 .btn_top_area{
     width:100%;
-    height:66px;
+    height:1.3rem;
     display: flex;
     justify-content: space-between;
 }
 .btn_bottom_area{
     width:100%;
-    height:13px;
+    height:0.45rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .carousel_btn{
-    width:66px;
-    height:66px;
+    width:1.3rem;
+    height:1.3rem;
 }
 .specify_news{
-    font-size:40px;
-    font-family:Source Han Sans CN;
-    font-weight:500;
-    color:rgba(255,255,255,1);
+    height: 1.3rem;
+    font-size: 1rem;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 1.3rem;
+
 }
 .btn_bottom_area_ul{
     
 }
 .btn_bottom_area_li{
     float:left;
-    margin-right:21px;
-    width:13px;
-    height:13px;
-    background:url('../../assets/images/newsInfo/circle.png');
+    margin-right:0.45rem;
+    width: 0.45rem;
+    height: 0.45rem;
+    background: #FFFFFF;
+    border-radius: 50%;
+
 }
 .btn_bottom_area_li:nth-last-child(1){
     margin-right:0;
 }
 .con_title{
+    margin-top:2.6rem;
     width:100%;
     font-size:30px;
     display: flex;
     justify-content: center;
-    margin-top:82px;
-    font-family:Source Han Sans CN;
-    font-weight:bold;
-    color:rgba(21,119,201,1);
+    height: 1.2rem;
+    font-size: 1.2rem;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #155BA5;
 }
 .b_middle{
-    width:1100px;
-    margin:0 auto;
+   width:100%;
+   box-sizing: border-box;
 }
 .con_ul{
-    margin-top:88px;
+    margin-top:3.45rem;
     width:100%;
+    padding-right:2.45rem;
     overflow: hidden;
+    box-sizing: border-box;
+    padding-left:1.55rem;
+
 }
 .con_li{
-    width:500px;
-    height:228px;
-    float: left;
-    display:flex;
+    width:100%;
+    overflow: hidden;
+    display: flex;
     justify-content: space-between;
-    margin-bottom:20px;
-}
-.con_li:nth-child(2n+1){
-    margin-right:93px;
+    align-items: center;
+    margin-bottom:1.7rem;
 }
 .con_li_left{
-    width:220px;
-    height:220px;
-    background:blue;
+    width:11rem;
+    height:11rem;
 }
 .con_li_right{
-    width:236px;
-    height:228px;
-    font-size:16px;
-    font-family:Source Han Sans CN;
-    font-weight:400;
-    color:rgba(102,102,102,1);
-    line-height:26px;
+    width:21.05rem;
+    height:11rem;
+    font-size: 1rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #333333;
+    line-height: 1.3rem;
+}
+.grey_rec{
+    width: 100%;
+    height: 1rem;
+    background: #F5F5F5;
+
 }
 </style>
