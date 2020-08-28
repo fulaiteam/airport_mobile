@@ -137,6 +137,17 @@ export default new Router({
                     name: 'contactUs',
                     component: resolve => require(['@/pages/contactUs/contactUs'], resolve),
                 },
+                {   //用户协议
+                    path: '/home/userTready',
+                    name: 'contactUs',
+                    component: resolve => require(['@/pages/contactUs/userTready'], resolve),
+                },
+                {   //用户调研
+                    path: '/home/userSurvey',
+                    name: 'userSurvey',
+                    component: resolve => require(['@/pages/contactUs/userSurvey'], resolve),
+                },
+
 
 
 

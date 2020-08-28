@@ -1,33 +1,24 @@
 <template>
     <div>
-        <div class="tab">
-            <div class="content_center">
-
-            </div>
-        </div>
+        <!--轮播图区域开始  -->
+        <img src="../../assets/images/index/banner_1.gif" class='banner_img'>
+        <!-- 轮播图区域结束 -->
         <!--  -->
         <div  class='conten_cccc' >
            <div  class='title' >
-               企业相关标题
-           </div>
-           <div class='img1_area' >
-               <img src="../../assets/images/newsInfo/jd.png"  class='img1' >
+               对应标题
            </div>
            <div  class='text_area1 margin_top76' >
-华为智慧机场数据中心解决方案，近年来，智慧机场理念已得到业内的普遍认可，并开始逐步付诸实践。数字化协作、云计算和大数据等新ICT技术带来的变革将赋予传统ICT系统所不具备的能力，重构机场的信息流，在智慧机场的运营安全保障、机场运行效率、面向旅客及企业的服务质量等方面将带来显著效益。华为智慧机场数据中心解决方案，近年来，智慧机场理念已得到业内的普遍认可，并开始逐步付诸实践。数字化协作、云计算和大数据等新ICT技术带来的变革将赋予传统ICT系统所不具备的能力，重构机场的信息流，在智慧机场的运营安全保障、机场运行效率、面向旅客及企业的服务质量等方面将带来显著效益。华为智慧机场数据中心解决方案，近年来，智慧机场理念已得到业内的普遍认可，并开始逐步付诸实践。数字化协作、云计算和大数据等新ICT技术带来的变革将赋予传统ICT系统所不具备的能力，重构机场的信息流，在智慧机场的运营安全保障、机场运行效率、面向旅客及企业的服务质量等方面将带来显著效益。华为智慧机场数据中心解决方案，近年来，智慧机场理念已得到业内的普遍认可，并开始逐步付诸实践。数字化协作、云计算和大数据等新ICT技术带来的变革将赋予传统ICT系统所不具备的能力，重构机场的信息流，在智慧机场的运营安全保障、机场运行效率、面向旅客及企业的服务质量等方面将带来显著效益。
+为响应民航局局长冯正霖在2018年全国民航工作会议上提出的建设“四型机场”标杆体系，对标一流，打造现代化民用机场的要求，首都机场集团公司将建设“四型机场”作为打造世界一流机场管理集团的核心目标，并将其纳入“4-3-4-1”总体工作思路中。
 
            </div>
            <div  class='img_2area' >
                <img src="../../assets/images/index/secondary_img2.png"   class='img2' >
                 <img src="../../assets/images/index/secondary_img3.png"   class='img2' >
            </div>
-            <div  class='text_area1 margin_top60' >
-华为智慧机场数据中心解决方案，近年来，智慧机场理念已得到业内的普遍认可，并开始逐步付诸实践。数字化协作、云计算和大数据等新ICT技术带来的变革将赋予传统ICT系统所不具备的能力，重构机场的信息流，在智慧机场的运营安全保障、机场运行效率、面向旅客及企业的服务质量等方面将带来显著效益。华为智慧机场数据中心解决方案，近年来，智慧机场理念已得到业内的普遍认可，并开始逐步付诸实践。数字化协作、云计算和大数据等新ICT技术带来的变革将赋予传统ICT系统所不具备的能力，重构机场的信息流，在智慧机场的运营安全保障、机场运行效率、面向旅客及企业的服务质量等方面将带来显著效益。华为智慧机场数据中心解决方案，近年来，智慧机场理念已得到业内的普遍认可，并开始逐步付诸实践。数字化协作、云计算和大数据等新ICT技术带来的变革将赋予传统ICT系统所不具备的能力，重构机场的信息流，在智慧机场的运营安全保障、机场运行效率、面向旅客及企业的服务质量等方面将带来显著效益。华为智慧机场数据中心解决方案，近年来，智慧机场理念已得到业内的普遍认可，并开始逐步付诸实践。数字化协作、云计算和大数据等新ICT技术带来的变革将赋予传统ICT系统所不具备的能力，重构机场的信息流，在智慧机场的运营安全保障、机场运行效率、面向旅客及企业的服务质量等方面将带来显著效益。
-                            
-           </div>
-                      <div  class='img_2area  margin_bottom100' >
-               <img src="../../assets/images/index/secondary_img2.png"   class='img2' >
-                <img src="../../assets/images/index/secondary_img3.png"   class='img2' >
+                      <div  class='text_area1 margin_top76_bottom' >
+过去的一年，首都机场集团公司陆续拟定发布了平安、绿色、智慧、人文机场建设指导纲要，明晰了发展的思路与目标。集团下属各成员机场与专业公司齐头并进、亮点频现，为建设“四型机场”赢得了良好开局，也在打造世界一流机场集团的新征程上迈出了扎实的一步。
+
            </div>
         </div>
         <!--  -->
@@ -41,34 +32,28 @@
 </script>
 
 <style  scoped>
-.tab{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    background:#0F1061;
-    display: flex;
-    justify-content: center;
-}
-.tab .content_center{
-    width: 1200px;
-    height: 500px;
-    background:url('../../assets/images/congressTopics/tab.png')  no-repeat center;
+.banner_img{
+    width:100%;
+    height:15.4rem;
 }
 .conten_cccc{
-    width:1096px;
-    margin:0 auto;
+    width:100%;
+    padding-left:1.55rem;
+    padding-right:1.5rem;
+    box-sizing: border-box;
 }
 .title{
     width:100%;
-    margin-top:85px;
-    height:29px;
-    line-height: 29px;
-    font-size:30px;
     display: flex;
     justify-content: center;
-    font-family:Source Han Sans CN;
-    font-weight:bold;
-    color:rgba(21,119,201,1);
+    align-items: center;
+    margin-top:1.8rem;
+    height: 1.2rem;
+    font-size: 1.2rem;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #155BA5;
+
 }
 .img1_area{
     width:100%;
@@ -82,21 +67,26 @@
     width:870px;
     height:440px;
 }
+.img2{
+    width:16.5rem;
+    height:9rem;
+}
 .text_area1{
     width:100%;
-    font-size:18px;
-    font-family:Source Han Sans CN;
-    font-weight:400;
-    color:rgba(101,101,101,1);
-    line-height:26px;
+    font-size: 1rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #333333;
+    line-height: 1.3rem;
+
 }
 .margin_top76{
-     margin-top:76px;
+     margin-top:1.65rem;
 }
 .img_2area{
     width:100%;
-    height:310px;
-    margin-top:58px;
+    height:9rem;
+    margin-top:3.45rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,5 +96,9 @@
 }
 .margin_bottom100{
     margin-bottom:100px;
+}
+.margin_top76_bottom{
+    margin-top:3.7rem;
+    margin-bottom:4.84rem;
 }
 </style>

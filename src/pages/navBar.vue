@@ -1,7 +1,7 @@
 <template>
     <div  class='top_nav' >
        <img src="../assets/images/index/left_logo.png" class='left_logo_area'>
-       <div  class='right_text_area'   v-for='(item,index)   in  navList'   :key='index'    @click='changenowactive(item.url)'  >
+       <div  :class='{right_text_area:true, active_item:nowactive == item.name}'   v-for='(item,index)   in  navList'   :key='index'    @click='changenowactive(item.url,item.name)'  >
            {{item.name}}
        </div>
     </div>
@@ -33,8 +33,9 @@
             }
         },
         methods:{
-            changenowactive(a){
-                this.$router.push({name:a})
+            changenowactive(a,b){
+                this.$router.push({name:a});
+                this.nowactive = b;
 
             }
         }
@@ -56,13 +57,17 @@
     margin-left:2.75rem;
 }
 .right_text_area{
+    box-sizing: border-box;
     float:left;
-    height:1.1rem;
+    height:1.9rem;
     margin-left:2.8rem;
     font-size:1.1rem;
     font-family:Source Han Sans CN;
     font-weight:400;
     color:rgba(51,51,51,1);
 }
-
+.active_item{
+    border-bottom:1px solid #155BA5;
+    color: #155BA5;
+}
 </style>
