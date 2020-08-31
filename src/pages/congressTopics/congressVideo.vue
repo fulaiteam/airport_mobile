@@ -4,7 +4,12 @@
             <div class="introduce_wrap">
                 <div class="intruduce_con">
                     <div class="title">{{ title }}</div>
-                    <video class="videoBox" src="../../assets/images/congressTopics/test123.mp4"></video>
+                    <!-- <video class="videoBox" src="../../assets/images/congressTopics/test123.mp4"></video> -->
+                    <div>
+                        <video  class="videoBox" width="100%" height="34.5rem" controls>
+                            <source src="../../assets/images/congressTopics/test123.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <div class="eva_title">评价</div>
                     <textarea class="eval_box" placeholder="我也来说几句" :value="textCon"></textarea>
                     <div class="evalution_li" v-for="(item,index) in evalutionList" :key="index">

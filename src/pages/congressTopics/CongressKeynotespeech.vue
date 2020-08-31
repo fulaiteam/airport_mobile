@@ -4,7 +4,11 @@
             <div class="introduce_wrap">
                 <div class="intruduce_con">
                     <div class="title">{{ title }}</div>
-                    <video class="videoBox" src="../../assets/images/congressTopics/test123.mp4"></video>
+                    <div>
+                        <video  class="videoBox" width="100%" height="34.5rem" controls>
+                            <source src="../../assets/images/congressTopics/test123.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <div class="eval">
                         <div class="eval_title">发言摘要</div>
                         <textarea class="eval_box" :value="textCon" placeholder="发言内容"></textarea>

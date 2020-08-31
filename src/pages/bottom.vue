@@ -38,18 +38,15 @@
                    {show:false,url:'index',img:require("../assets/images/bottom/icon1.png"),img1:require("../assets/images/bottom/i1.png")},
                    //云展馆
                    {show:true,url:'yunExhibitionhall',img:require("../assets/images/bottom/icon2.png"),img1:require("../assets/images/bottom/i2.png")},
-<<<<<<< HEAD
                    //云体验
                    {show:true,url:'cooperative',img:require("../assets/images/bottom/icon3.png"),img1:require("../assets/images/bottom/i3.png")},
                    //云会谈
                    {show:true,url:'cloudTalks',img:require("../assets/images/bottom/icon4.png"),img1:require("../assets/images/bottom/i4.png")},
                    //我的
                    {show:true,url:'Login',img:require("../assets/images/bottom/icon5.png"),img1:require("../assets/images/bottom/i5.png")},
-=======
-                   {show:true,url:'cloudExperience',img:require("../assets/images/bottom/icon3.png"),img1:require("../assets/images/bottom/i3.png")},
+                 /*   {show:true,url:'cloudExperience',img:require("../assets/images/bottom/icon3.png"),img1:require("../assets/images/bottom/i3.png")},
                    {show:true,url:'index',img:require("../assets/images/bottom/icon4.png"),img1:require("../assets/images/bottom/i4.png")},
-                   {show:true,url:'index',img:require("../assets/images/bottom/icon5.png"),img1:require("../assets/images/bottom/i5.png")},
->>>>>>> 0351d382b79fe1d0707b3a6945ea25a19f7979c5
+                   {show:true,url:'index',img:require("../assets/images/bottom/icon5.png"),img1:require("../assets/images/bottom/i5.png")}, */
                ],
                
             }
@@ -79,13 +76,15 @@
     height: 4.9rem;
     display: flex;
     justify-content: flex-start;
-    padding: 0 3.6rem;
 }
 .bot_nav .nav_li img{
     height: 3.5rem;
     width: 3.5rem;
     margin-right: 3.4rem;
     margin-top: 0.6rem;
+}
+.bot_nav .nav_li:first-child{
+    margin-left: 3.6rem;
 }
 .bot_nav .nav_li:last-child img{
     margin-right: 0;
