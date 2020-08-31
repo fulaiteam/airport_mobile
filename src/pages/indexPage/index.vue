@@ -1,7 +1,17 @@
 <template>
     <div>
         <!--轮播图区域开始  -->
-        <img src="../../assets/images/index/banner_1.gif" class='banner_img'>
+        <!-- <img src="../../assets/images/index/banner_1.gif" class='banner_img'> -->
+        <div  class='carousel_area' >
+            <img :src="nowimg" class='banner_img'>
+            <div  class='dotted_area' >
+                <ul  class='dotted_ul' >
+                    <li  :class='{dotted_li:true,dotted_li_active:item.name == nowDotted}'   v-for='(item,index)  in  carouselList'    @click='changeCaouselImg(item.name,item.img)'    :key='index'  >
+
+                    </li>
+                </ul>
+            </div>
+        </div>
         <!-- 轮播图区域结束 -->
         <!-- 主题大会区域开始 -->
         <div class='title_text' >
@@ -76,6 +86,22 @@
         data(){
             return{
                 nowactive:'',
+                nowDotted:'first',
+                nowimg:require('@/assets/images/newsInfo/banner_1.png'),
+                carouselList:[
+                    {
+                        name:'first',
+                        img:require('@/assets/images/newsInfo/banner_1.png')
+                    },
+                    {
+                        name:'second',
+                        img:require('@/assets/images/index/secondary_img1.png')
+                    },
+                    {
+                        name:'third',
+                        img:require('@/assets/images/index/secondary_img2.png')
+                    }
+                ],
                 imglist:[
                     {
                         img:'1'
@@ -107,6 +133,10 @@
         methods:{
             changenowactive(a){
                 this.$router.push({name:a})
+            },
+            changeCaouselImg(name,img){
+                this.nowDotted = name;
+                this.nowimg = img;
             }
         }
     }
@@ -114,8 +144,44 @@
 
 <style  scoped>
 .banner_img{
+    position: absolute;
+    left:0;
+    top:0;
     width:100%;
-    height:15.4rem;
+    height:18rem;
+}
+.carousel_area{
+    position: relative;
+    width:100%;
+    height:18rem;
+    background:yellow;
+}
+.dotted_area{
+    position:absolute;
+    bottom:1.45rem;
+    left:0;
+    width:100%;
+    height:0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dotted_ul{
+    width:5.6rem;
+    height:0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dotted_li{
+    width: 1.2rem;
+    height: 0.2rem;
+    background: #FFFFFF;
+    opacity: 0.4;
+    border-radius: 0rem;
+}
+.dotted_li_active{
+    opacity: 1;
 }
 .title_text{
     margin-top:2.45rem;
