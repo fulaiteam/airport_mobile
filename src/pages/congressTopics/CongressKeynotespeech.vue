@@ -5,7 +5,7 @@
                 <div class="intruduce_con">
                     <div class="title">{{ title }}</div>
                     <div>
-                        <video  class="videoBox" width="100%" height="34.5rem" controls>
+                        <video  class="videoBox" controls>
                             <source src="../../assets/images/congressTopics/test123.mp4" type="video/mp4">
                         </video>
                     </div>

@@ -124,7 +124,7 @@
 /* 会议概要单独样式结束 */
 /* 议程安排单独样式开始 */
 .onebox .box_table{
-    padding:2.3rem 1.5rem;
+    padding:2.3rem 0.7rem;
 }
 .sty_table{
     height: 19.7rem;

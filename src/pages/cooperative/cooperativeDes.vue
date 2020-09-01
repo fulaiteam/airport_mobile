@@ -83,12 +83,6 @@
     background: #fff;
     padding: 2.8rem 1.5rem 1.9rem 1.5rem;
 }
-.business_outline .bo_img{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-}
 .bussiness_img{
     display: flex;
     justify-content: flex-start;

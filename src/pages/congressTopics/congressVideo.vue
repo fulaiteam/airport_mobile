@@ -6,7 +6,7 @@
                     <div class="title">{{ title }}</div>
                     <!-- <video class="videoBox" src="../../assets/images/congressTopics/test123.mp4"></video> -->
                     <div>
-                        <video  class="videoBox" width="100%" height="34.5rem" controls>
+                        <video  class="videoBox" controls>
                             <source src="../../assets/images/congressTopics/test123.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -126,7 +126,7 @@
     font-size: 1.2rem;
 }
 .good img{
-    margin: 0 16px;
+    margin: 0 1.6rem;
     height: 2rem;
     width: 2rem;
 }

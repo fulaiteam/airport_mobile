@@ -80,14 +80,7 @@
         created() {
             // this.changfouce();
         },
-        methods: {
-            /*  changfouce(){
-                console.log('666565')
-                this.$nextTick((x)=>{  
-                    console.log('this.$refs',this.$refs)
-                    this.$refs.input.focus();
-                })
-            }, */     
+        methods: {  
             hjSubmite(formName) {
                 // 管理登陆方法.
                 this.$refs[formName].validate((valid) => {
@@ -111,7 +104,7 @@
             },
             validateBtn(){
                 //倒计时
-                let time = 5;
+                let time = 60;
                 let timer = setInterval(() => {
                     if(time == 0) {
                         clearInterval(timer);
@@ -184,11 +177,11 @@
 }
 .mes_box{
     width: 25rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .login .login_box .message .mes_li{
-    height: 3rem;
-    line-height:3rem;
+    height: 4rem;
+    line-height:4rem;
     display: flex;
     justify-content: flex-start;
     align-items:flex-end;

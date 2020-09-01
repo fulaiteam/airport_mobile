@@ -4,8 +4,10 @@
             <div class="sence">
                 <div class="sence_title">场景演示</div>
                 <div class="sence_box">
-                    <div class="video_box">
-                        <video src="../../assets/images/congressTopics/test123.mp4"></video>
+                    <div>
+                        <video  class="videoBox" controls>
+                            <source src="../../assets/images/congressTopics/test123.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
                 <div class="others">
@@ -78,7 +80,7 @@
     width: 100%;
     background: #fff;
 }
-.content .center_box .sence .sence_box .video_box video{
+.content .center_box .sence .sence_box .videoBox{
     height: 21.1rem;
     width: 100%;
     object-fit: fill;

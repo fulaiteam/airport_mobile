@@ -10,7 +10,6 @@
             <div class="title">
                 首都机场集团四型机场会务部
             </div>
-           
             <div class="context_list">
                 <li v-for="(item,index) in contextList" :key='index'>
                     {{ item.name }}{{ item.con }}
@@ -39,7 +38,7 @@
                    //云展馆
                    {show:true,url:'yunExhibitionhall',img:require("../assets/images/bottom/icon2.png"),img1:require("../assets/images/bottom/i2.png")},
                    //云体验
-                   {show:true,url:'cooperative',img:require("../assets/images/bottom/icon3.png"),img1:require("../assets/images/bottom/i3.png")},
+                   {show:true,url:'cloudExperience',img:require("../assets/images/bottom/icon3.png"),img1:require("../assets/images/bottom/i3.png")},
                    //云会谈
                    {show:true,url:'cloudTalks',img:require("../assets/images/bottom/icon4.png"),img1:require("../assets/images/bottom/i4.png")},
                    //我的
@@ -115,7 +114,6 @@
 }
 .context_list li{
     list-style: none;
-    margin-right:12px
 }
 .banquan{
     position: absolute;

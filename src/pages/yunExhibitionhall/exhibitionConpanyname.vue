@@ -75,9 +75,6 @@
     width: 26.5rem;
 }
 /* 企业概况 */
-.business_outline{
-    
-}
 .business_outline .bo_title{
     text-align: center;
     height: 2.5rem;

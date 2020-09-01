@@ -19,12 +19,15 @@
                             <el-form-item class="mes_li" 
                                 label="单  位" 
                                 prop="danwei">
+                                <label slot="label">单&nbsp;&nbsp;&nbsp;位</label>
                                 <input type="text" placeholder="" class="mes_text" v-model="user.danwei">
                             </el-form-item>
-                            <el-form-item class="mes_li" label="姓  名" prop="name">
+                            <el-form-item class="mes_li" label="姓     名" prop="name">
+                                <label slot="label">姓&nbsp;&nbsp;&nbsp;名</label>
                                 <input type="text" placeholder="" class="mes_text" v-model="user.name">
-                            </el-form-item>
-                            <el-form-item class="mes_li" label="邮  箱" prop="email">
+                            </el-form-item> 
+                            <el-form-item class="mes_li" label="邮     箱" prop="email">
+                                <label slot="label">邮&nbsp;&nbsp;&nbsp;箱</label>
                                 <input type="text" placeholder="" class="mes_text" v-model="user.email">
                             </el-form-item>
                             <el-form-item class="mes_li" label="手机号" prop="phone">
@@ -128,9 +131,9 @@
                         clearInterval(timer);
                         this.codeShow = true;
                     } else {
-                            this.codeShow = false;
-                            this.btnTitle = time + '秒后重试';
-                            time--
+                        this.codeShow = false;
+                        this.btnTitle = time + '秒后重试';
+                        time--
                     }
                 },1000)
             },
@@ -171,7 +174,6 @@
 .login_box{
     height: 30.9rem;
     width: 34.4rem;
-    background: red;
     background:url('../assets/images/login/registerback.png')  no-repeat center;
     background-size: 34.4rem 30.9rem;
     margin-left: 1.5rem;
@@ -207,7 +209,6 @@
     border-bottom-width: 1px;
     border-bottom-color: #999;
     outline:none;
-
 }
 .login .login_box .message .mes_li .mes_text_short{
     width: 11.7rem;

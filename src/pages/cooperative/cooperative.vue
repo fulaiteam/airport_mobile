@@ -88,7 +88,7 @@
     background: #F5F5F5;
 }
 .intrduce .introduce_wrap{
-    width: 100%x;
+    width: 100%;
 }
 .intrduce .introduce_wrap .talk_title{
     color:#1577C9;
