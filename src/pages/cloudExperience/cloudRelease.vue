@@ -1,27 +1,20 @@
 <template>
     <div>
-        <div class="tab">
-            <div class="content_center">
-
-            </div>
-        </div>
+        <!--轮播图区域开始  -->
+        <img src="../../assets/images/index/banner_1.gif" class='banner_img'>
+        <!-- 轮播图区域结束 -->
         <!-- 版心区域开始 -->
         <div class='content_center_lll' >
             <div class='title'    >
                 云发布
             </div>
-            <div class='black_subtitle' >
-                发布简介
-            </div>
-            <div  class='dotted_line' ></div>
             <!-- 文字区域开始  -->
             <div  class='flex_center' >
                 <div  class='text_content' >
 
-                                党的十九大提出，我国经济已由高速增长阶段转向高质量发展阶段，为新时代中国经济发展标定了历史方位、提供了行动指南。在此背景下，找准高质量发展的重点和路径成为各行各业发展的重中之重。<br>
-2018年，民航局发布了《新时代民航强国建设行动纲要》，明确指出，要高质量推进机场规划建设，建设平安、绿色、智慧、人文机场。建设“四型机场”，为我国机场实现高质量发展指明了前行之路。<br>
-为响应民航局局长冯正霖在2018年全国民航工作会议上提出的建设“四型机场”标杆体系，对标一流，打造现代化民用机场的要求，首都机场集团公司将建设“四型机场”作为打造世界一流机场管理集团的核心目标，并将其纳入“4-3-4-1”总体工作思路中。<br>
-过去的一年，首都机场集团公司陆续拟定发布了平安、绿色、智慧、人文机场建设指导纲要，明晰了发展的思路与目标。集团下属各成员机场与专业公司齐头并进、亮点频现，为建设“四型机场”赢得了良好开局，也在打造世界一流机场集团的新征程上迈出了扎实的一步。
+                                党的十九大提出，我国经济已由高速增长阶段转向高质量发展阶段，为新时代中国经济发展标定了历史方位、提供了行动指南。在此背景下，找准高质量发展的重点和路径成为各行各业发展的重中之重。
+2018年，民航局发布了《新时代民航强国建设行动纲要》，明确指出，要高质量推进机场规划建设，建设平安、绿色、智慧、人文机场。建设“四型机场”，为我国机场实现高质量发展指明了前行之路。
+
                             
                 </div>
             </div>
@@ -31,18 +24,23 @@
                 <img src="../../assets/images/conference/clo_video.png"    class='video_mmm' >
              </div>
             <!-- 视频区域结束 -->
-                        <!-- 文字区域开始  -->
+            <!-- 文字区域开始  -->
             <div  class='flex_center' >
-                <div  class='text_content2' >
+                <div  class='text_content' >
 
-                                党的十九大提出，我国经济已由高速增长阶段转向高质量发展阶段，为新时代中国经济发展标定了历史方位、提供了行动指南。在此背景下，找准高质量发展的重点和路径成为各行各业发展的重中之重。<br>
-2018年，民航局发布了《新时代民航强国建设行动纲要》，明确指出，要高质量推进机场规划建设，建设平安、绿色、智慧、人文机场。建设“四型机场”，为我国机场实现高质量发展指明了前行之路。<br>
-为响应民航局局长冯正霖在2018年全国民航工作会议上提出的建设“四型机场”标杆体系，对标一流，打造现代化民用机场的要求，首都机场集团公司将建设“四型机场”作为打造世界一流机场管理集团的核心目标，并将其纳入“4-3-4-1”总体工作思路中。<br>
-过去的一年，首都机场集团公司陆续拟定发布了平安、绿色、智慧、人文机场建设指导纲要，明晰了发展的思路与目标。集团下属各成员机场与专业公司齐头并进、亮点频现，为建设“四型机场”赢得了良好开局，也在打造世界一流机场集团的新征程上迈出了扎实的一步。
+                                党的十九大提出，我国经济已由高速增长阶段转向高质量发展阶段，为新时代中国经济发展标定了历史方位、提供了行动指南。在此背景下，找准高质量发展的重点和路径成为各行各业发展的重中之重。
+2018年，民航局发布了《新时代民航强国建设行动纲要》，明确指出，要高质量推进机场规划建设，建设平安、绿色、智慧、人文机场。建设“四型机场”，为我国机场实现高质量发展指明了前行之路。
+
                             
                 </div>
             </div>
             <!-- 文字区域结束  -->
+            <!--  -->
+            <div  class='bottom_img_area' >
+                <img src="../../assets/images/conference/ttttttt.png"  class='bottom_img'  >
+                <img src="../../assets/images/conference/ttttttt.png"  class='bottom_img'  >
+            </div>
+            <!--  -->
         </div>
         <!-- 版心区域结束 -->
     </div>
@@ -65,32 +63,24 @@
 </script>
 
 <style  scoped>
-.tab{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    background:#0F1061;
-    display: flex;
-    justify-content: center;
-}
-.tab .content_center{
-    width: 1200px;
-    height: 500px;
-    background:url('../../assets/images/congressTopics/tab.png')  no-repeat center;
+.banner_img{
+    width:100%;
+    height:15.4rem;
 }
 .content_center_lll{
-    width:1110px;
-    margin:0 auto;
+    width:100%;
+    padding-left:1.55rem;
+    padding-right:1.55rem;
+    box-sizing: border-box;
 }
 .title{
-    margin-top:75px;
-    width:100%;
-    height:29px;
-    line-height: 29px;
-    font-size:30px;
-    font-family:Source Han Sans CN;
-    font-weight:bold;
-    color:rgba(21,119,201,1);
+    width: 100%;
+    height: 1.2rem;
+    font-size: 1.2rem;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #165CA6;
+    margin-top:1.8rem;
     display: flex;
     justify-content: center;
 }
@@ -115,13 +105,15 @@
     justify-content: center;
 }
 .text_content{
-    width:1095px;
-    font-size:18px;
-    margin-top:28px;
-    font-family:Source Han Sans CN;
-    font-weight:400;
-    color:rgba(102,102,102,1);
-    line-height:26px;
+    margin-top:1.9rem;
+    width: 100%;
+    height: 7.5rem;
+    font-size: 1rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #343434;
+    line-height: 1.3rem;
+
 }
 .text_content2{
     width:1095px;
@@ -134,9 +126,22 @@
     line-height:26px;
 }
 .video_mmm{
-    margin-top:45px;
-    width:800px;
-    height:450px;
+    margin-top:1.25rem;
+    width:34.55rem;
+    height:19.45rem;
+}
+.bottom_img_area{
+    margin-top:1.3rem;
+    width:100%;
+    height:9rem;
+    margin-bottom:4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom_img{
+    width:16.5rem;
+    height:9rem;
 }
 
 </style>
