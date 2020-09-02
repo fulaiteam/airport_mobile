@@ -15,7 +15,6 @@
                             <div class="text">{{ item.name }}</div>
                             <div class="text">{{ item.theme }}</div>
                             <div class="text">{{ item.num }}</div>
-                            <div class="text">&lt; 进入 &gt;</div>
                         </div>
                     </div>
                 </div>
@@ -119,9 +118,6 @@
     display: flex;
     justify-content: center;
 }
-.intrduce .introduce_wrap{
-    
-}
 .intrduce .introduce_wrap .talk_title{
     color:#1577C9;
     height: 5rem;
@@ -161,8 +157,8 @@
 }
 .intrduce .introduce_wrap .talk_con .talk_conli .talk_text .text{
     border-bottom:1px solid #999;
-    height: 2rem;
-    line-height: 2rem;
+    height: 2.7rem;
+    line-height: 2.7rem;
     text-align: center;
     font-size: 0.9rem;
     color: #333333;

@@ -16,17 +16,15 @@
                     <div class="role">观众</div>
                     <div class="message">
                         <div class="mes_box">
-                            <el-form-item class="mes_li" 
-                                label="单  位" 
-                                prop="danwei">
+                            <el-form-item class="mes_li" prop="danwei">
                                 <label slot="label">单&nbsp;&nbsp;&nbsp;位</label>
                                 <input type="text" placeholder="" class="mes_text" v-model="user.danwei">
                             </el-form-item>
-                            <el-form-item class="mes_li" label="姓     名" prop="name">
+                            <el-form-item class="mes_li" prop="name">
                                 <label slot="label">姓&nbsp;&nbsp;&nbsp;名</label>
                                 <input type="text" placeholder="" class="mes_text" v-model="user.name">
                             </el-form-item> 
-                            <el-form-item class="mes_li" label="邮     箱" prop="email">
+                            <el-form-item class="mes_li" prop="email">
                                 <label slot="label">邮&nbsp;&nbsp;&nbsp;箱</label>
                                 <input type="text" placeholder="" class="mes_text" v-model="user.email">
                             </el-form-item>
@@ -106,14 +104,13 @@
         },
         methods: {
             hjSubmite(formName) {
-                // 管理登陆方法.
+                // 注册
                 this.$refs[formName].validate((valid) => {
                     if (valid) {
                         this._ajax('admin/adminLogin', {
                             account: this.user.name,
                             password: this.user.pas
                         }, data => {
-                            console.log(data);
                             window.sessionStorage.setItem('bear', JSON.stringify(data));
                             this.$router.push({name: 'Home'});
                         })

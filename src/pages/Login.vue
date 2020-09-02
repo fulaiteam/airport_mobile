@@ -89,7 +89,6 @@
                             account: this.user.name,
                             password: this.user.pas
                         }, data => {
-                            console.log(data);
                             window.sessionStorage.setItem('bear', JSON.stringify(data));
                             this.$router.push({name: 'Home'});
                         })
@@ -140,7 +139,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 27.4rem;
+    height: 31.8rem;
 } 
 .login{
     width: 34.5rem;

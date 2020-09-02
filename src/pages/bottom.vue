@@ -58,7 +58,6 @@
                     item.show = true
                 })
                 this.navList[i].show = !this.navList[i].show
-
             }
         }
     }

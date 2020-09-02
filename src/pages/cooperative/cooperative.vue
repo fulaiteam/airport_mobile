@@ -29,18 +29,17 @@
         data(){
             return{
                 cooperativeList:[
-                    {img:require("../../assets/images/cloudTalk/talk.png")},
-                    {img:require("../../assets/images/cloudTalk/talk.png")},
-                    {img:require("../../assets/images/cloudTalk/talk.png")},
-                    {img:require("../../assets/images/cloudTalk/talk.png")},
-                    {img:require("../../assets/images/cloudTalk/talk.png")},
-                    {img:require("../../assets/images/cloudTalk/talk.png")},
-                    {img:require("../../assets/images/cloudTalk/talk.png")},
-                    {img:require("../../assets/images/cloudTalk/talk.png")},
-                    {img:require("../../assets/images/cloudTalk/talk.png")},
-                    {img:require("../../assets/images/cloudTalk/talk.png")},
-                    {img:require("../../assets/images/cloudTalk/talk.png")},
-                    {img:require("../../assets/images/cloudTalk/talk.png")},
+                    {img:require("../../assets/images/cooperative/logo_anjie.png")},
+                    {img:require("../../assets/images/cooperative/log_huaxia.png")},
+                    {img:require("../../assets/images/cooperative/logo_shuangqi.png")},
+                    {img:require("../../assets/images/cooperative/logo_yiwei.png")},
+                    {img:require("../../assets/images/cooperative/logo_zhongdun.png")},
+                    {img:require("../../assets/images/cooperative/logo_dian.png")},
+                    {img:require("../../assets/images/cooperative/logo_kaipu.png")},
+                    {img:require("../../assets/images/cooperative/logo_jitong.png")},
+                    {img:require("../../assets/images/cooperative/logo_xinhua.png")},
+                    {img:require("../../assets/images/cooperative/logo_yigesiman.png")},
+                    {img:require("../../assets/images/cooperative/logo_shenzhou.png")},
                 ],
                 cooperList:[
                     {img:require("../../assets/images/cloudTalk/talk.png")},
@@ -123,12 +122,12 @@
     margin-right:0
 }
 .intrduce .introduce_wrap .talk_con .talk_conli img{
-    height: 5.8rem;
-    width: 4.5rem;
+    height: 6.2rem;
+    width: 16.3rem;
     position: absolute;
     top: 0.3rem;
     left:50%;
-    margin-left: -2.25rem;
+    margin-left: -8.15rem;
 }
 .intrduce .introduce_wrap .talk_con .talk_conli:nth-child(2n+0){
     margin-right: 0;

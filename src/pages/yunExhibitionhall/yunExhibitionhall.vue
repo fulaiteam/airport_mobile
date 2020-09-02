@@ -56,6 +56,7 @@
 }
 .intrduce_content{
     width: 100%;
+    height: 27.7rem;
     padding: 2rem 1.4rem;
 }
 .intrduce_content img:nth-child(2n+1){
