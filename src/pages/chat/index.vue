@@ -19,11 +19,12 @@
         />
         </div>
 
-
+      <Bottom></Bottom>
 </div>
 </template>
 
 <script>
+import Bottom  from '../bottom.vue'
 import NavBar  from '../navBar.vue';
 import Vue from "vue";
 import MessageBox from "../../components/chat/index.vue";
@@ -197,7 +198,8 @@ export default {
     VidoeSetting,
     GroupRequest,
     GroupInvite,
-    NavBar
+    NavBar,
+    Bottom
   }
 };
 </script>

@@ -466,6 +466,7 @@ export default {
 }
 .text_area_btn{
   float:right;
+  margin-bottom:4rem;
 }
 .message_c_top{
   width:30rem;
