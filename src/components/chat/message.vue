@@ -425,55 +425,56 @@ export default {
 
 <style scoped >
 .all_bh{
-  width:618px;
+  width:30.45rem;
   overflow-y: auto;
-
 }
 
 .message_content{
-  width:600px;
-  height:600px;
- 
+  width:30rem;
+  height:30rem;
+  box-sizing: border-box;
   border:2px solid #eeeeee;
 }
 .message_left{
-  margin-top:5px;
-    width:600px;
-    padding-left:10px;
-  font-size: 20px;
+  margin-top:0.5rem;
+  width:30rem;
+  padding-left:1rem;
+  font-size: 2rem;
   text-align: left;
   box-sizing: border-box;
   background: #eeeeee;;
 }
 .message_right{
-  margin-top:5px;
-  width:600px;
-  box-sizing: border-box;
-  font-size: 20px;
+ margin-top:0.5rem;
+  width:30rem;
+  padding-right:1rem;
+  font-size: 2rem;
+   box-sizing: border-box;
   text-align: right;
   background: #eeeeee;;
 }
 .text_area{
-    width:600px;
-  height:70px;
+  width:30rem;
+  box-sizing: border-box;
+  height:7rem;
   resize: none;
 }
 .text_area_mes{
-  width:600px;
-  height:70px;
+  width:30rem;
+  height:7rem;
   resize: none;
 }
 .text_area_btn{
   float:right;
 }
 .message_c_top{
-  width:600px;
-  font-size:10px;
+  width:30rem;
+  font-size:1rem;
  word-wrap: break-word
 }
 .message_c_bottom{
-  width:600px;
-  font-size: 17px;
+  width:30rem;
+  font-size: 1.7rem;
   word-wrap: break-word
 }
 </style>

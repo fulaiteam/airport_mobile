@@ -278,7 +278,7 @@ export default {
   top: 10px;
 }
 .margin_top_20{
-  margin-top:20px;
+  margin-top:4rem;
 }
 .contact {
   width: 100%;
